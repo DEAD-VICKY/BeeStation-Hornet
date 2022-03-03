@@ -1631,3 +1631,10 @@
 		M.Jitter(5)
 	M.losebreath = 0
 	..()
+
+/datum/reagent/medicine/haemostax
+	name = "Haemostax"
+	description = "A weak clotting agent used in the treatment of minor scrapes and bruises. Advanced protein-fold programming renders this substance increasingly inert at higher doses, to prevent overdoses."
+	color = "#AA1414"
+	metabolization_rate = 0.8 * REAGENTS_METABOLISM
+	taste_description = "jelly"
